@@ -1,5 +1,5 @@
 # YM2151 Vectorization
-This project attempts to vectorize the die layers of a YM2151 FM Synthesis chip, with Operator Type M.
+This project attempts to vectorize the die layers of a [Yamaha YM2151](https://en.wikipedia.org/wiki/Yamaha_YM2151) FM Synthesis chip, with Operator Type M.
 
 Although the layers file is standalone, it is best opened in Inkscape with an image of the die.
 
