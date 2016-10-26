@@ -1,0 +1,7 @@
+ym2151.map ym2151.txt 21250 17250
+active l-active
+poly l-poly
+metal l-metal
+buried l-buried
+vias l-vias
+nmos-poly-single-metal

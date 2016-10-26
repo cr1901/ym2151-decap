@@ -1,0 +1,6 @@
+ym2151-layers.svg 21250 17250
+l-active blue  Active
+l-poly   red   Polysilicon
+l-metal  yellow Metal
+l-buried pink  Buried contacts
+l-vias   green  Vias
