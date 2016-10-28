@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="1314.8213"
-     inkscape:cy="15415.502"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="529.60486"
+     inkscape:cy="4698.5016"
      inkscape:document-units="px"
      inkscape:current-layer="layer8"
      showgrid="true"
@@ -8199,8 +8199,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Text"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -8230,13 +8229,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="292.78641"
-       y="5608.1499"
+       x="292.86823"
+       y="12647.571"
        id="text5354"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5356"
-         x="292.78641"
-         y="5608.1499">GND</tspan></text>
+         x="292.86823"
+         y="12647.571">GND</tspan></text>
   </g>
 </svg>
