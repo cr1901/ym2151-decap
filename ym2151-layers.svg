@@ -26,21 +26,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="529.60486"
-     inkscape:cy="4698.5016"
+     inkscape:zoom="0.11313709"
+     inkscape:cx="19679.058"
+     inkscape:cy="6170.6609"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer10"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      objecttolerance="20"
-     inkscape:window-width="1600"
-     inkscape:window-height="838"
-     inkscape:window-x="1272"
-     inkscape:window-y="-8"
+     inkscape:window-width="1680"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-grids="false"
      inkscape:object-nodes="true"
@@ -73,15 +73,15 @@
      sodipodi:insensitive="true"
      style="display:inline">
     <image
-       sodipodi:absref="C:\msys64\home\William\src\ym2151_decap\ym2151-metal.png"
-       xlink:href="ym2151-metal.png"
-       y="-16197.638"
-       x="-7.356377e-006"
-       id="image3402"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       sodipodi:absref="/home/jtejada/github/ym2151-decap/../../../../datos/owncloud/tecas/retro/proyectos/ym2151-metal.png"
+       xlink:href="../../../../datos/owncloud/tecas/retro/proyectos/ym2151-metal.png"
+       width="21250"
        height="17250"
-       width="21250" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image3402"
+       x="-7.356377e-06"
+       y="-16197.638" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1545,6 +1545,10 @@
      inkscape:label="Vias"
      style="display:inline"
      sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer9"
+       inkscape:label="Metal - topapate" />
     <rect
        style="opacity:1;fill:#00ff00;fill-opacity:0.23529412;stroke:#00ff00;stroke-width:0.53899997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4274"
@@ -6116,6 +6120,52 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Metal topapate"
+     style="display:inline">
+    <path
+       style="opacity:0.8627451;fill:#ffff00;fill-opacity:0.23529412;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.7312994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 765.11133 15636.914 L 765.11133 16650.391 L 764.83594 16650.391 L 765.11133 16670.16 L 2510.9375 16670.508 L 2510.9375 16672.852 L 2539.8438 16672.852 L 2539.8438 16650.391 L 784.44727 16650.391 L 784.44727 15636.914 L 765.11133 15636.914 z "
+       id="rect116047" />
+    <path
+       style="opacity:0.8627451;fill:#ffff00;fill-opacity:0.23529412;fill-rule:nonzero;stroke:#ffff00;stroke-width:1.00046515;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 736.38477 15126.471 C 735.0037 15127.853 735.83203 15153.84 735.83203 15153.84 L 739.42383 15153.564 L 739.84375 16434.811 L 739.84375 16725.314 L 760.9375 16725.314 L 760.9375 16725.307 L 9614.4492 16722.266 C 9614.4492 16722.266 9617.9742 16700 9614.0586 16701.562 C 9610.1431 16703.125 9375.209 16701.953 9375.209 16701.953 L 760.9375 16705.162 L 760.9375 16434.811 C 760.9375 16434.811 759.86437 15126.885 759.17383 15126.885 C 758.4833 15126.885 736.38477 15126.471 736.38477 15126.471 z "
+       id="rect116068" />
+    <path
+       style="fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 724.78516 13041.057 L 692.19141 13041.609 L 699.92578 16819.107 L 733.07031 16820.213 C 733.07031 16820.213 9706.6985 16815.241 9708.9082 16816.346 C 9711.1179 16817.451 9708.0781 16756.131 9708.0781 16756.131 L 732.93555 16758.984 L 724.78516 13041.057 z "
+       id="path116078" />
+    <path
+       style="fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#eae548;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 731.966,13038.848 c 0,2.762 0,28.173 0,28.173 0,0 2.76214,-0.552 2.76214,1.658 0,2.209 3.86699,2019.121 3.86699,2019.121 l -2.20971,4.419 0,25.965 23.20194,1.104 -4.50923,-2080.616 z"
+       id="path116080"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.23529412"
+       d="m 737.76649,16754.749 2902.72861,-1.105 0.2762,-24.859 -30.3835,0.276 0.2762,3.867 -2842.89056,0.666 -2.34375,-3.321 -8.20313,0 -0.78125,2.149 -18.94531,0.195 0,21.485 z"
+       id="path116088"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.23529412"
+       d="M 747.94922 12907.227 L 747.94922 12936.621 L 787.10938 12936.621 L 794.66602 16645.092 C 796.87573 16643.711 9535.2539 16643.555 9535.2539 16643.555 L 9535.4453 16621.891 L 815.09766 16624.992 L 807.91016 12936.23 L 835.83984 12936.23 L 835.83984 12907.227 L 747.94922 12907.227 z "
+       id="path116100" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#eae548;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.23529412"
+       d="m 763.1836,14754.297 20.89843,0 -4.39453,-1812.695 -36.91406,0 0,-34.961 -50.39063,0 0,56.64 66.01563,0 z"
+       id="path116109"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.23529412"
+       d="M 812.10938 12943.359 L 820.63086 16617.195 C 820.63086 16617.195 841.07087 16618.023 841.20898 16617.471 C 841.21222 16617.458 841.21551 16617.166 841.21875 16617.131 C 1264.9252 16616.29 9506.7188 16614.848 9506.7188 16614.848 L 9506.8574 16593.992 L 841.47461 16597.023 C 841.47552 16596.889 841.48438 16595.787 841.48438 16595.787 L 834.375 13038.086 L 837.5 13034.766 L 837.5 12943.359 L 812.10938 12943.359 z "
+       id="path116111" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.23529412"
+       d="m 12614.674,16584.878 c 0,0 -141.421,5.524 -141.421,0 0,-5.525 0,-34.803 0,-34.803 l 106.066,0 0,-403.824 -2872.2877,0 0,669.374 -57.4219,-44.922 -1.9531,-16.797 0,-666.992 4640.2347,0 0.776,668.94 898.108,-1.381 3.867,2.762 c 0,0 4901.687,4.419 4901.687,2.21 0,-2.21 -9.392,-6849.5448 -9.392,-6849.5448 l 38.67,0 -3.867,-4514.4349 14.087,0 -4.695,-4320.5329 57.452,1.1048 5.26,4379.4315 -27.344,0 6.445,4504.6875 -28.125,0 7.994,6856.0508 -5921.666,0.199 -0.491,-669.879 -286.157,-0.829 0.552,447.466 -41.984,-0.552 0,-445.809 -464.039,-0.552 1.657,447.466 -41.984,-1.105 0,-445.257 -438.628,-0.552 1.658,356.315 329.246,0 0.553,37.566 -366.259,-3.315 -0.553,-391.671 -305.492,1.657 z"
+       id="path116116"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Metal"
      style="display:inline;opacity:1"
@@ -8210,7 +8260,7 @@
          sodipodi:role="line"
          id="tspan5348"
          x="290.625"
-         y="1156.25"></tspan></text>
+         y="1156.25" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
