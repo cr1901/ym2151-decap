@@ -1,0 +1,12 @@
+31 Oct 2016
+-----------
+Topapate:
+	Added large text for all pads
+	Identified test structures and marked as "ignore"
+	Digitised circuit at (3900, 6400)
+	Found odd structure (resistor?) at (2618,6820)
+	Found odd structure (capacitor?) at (2700,7000)
+	Found odd structure (poly overlapping active with no apparent meaning) at (2414,6953)
+	
+	Discovered that pads alike have the same structure. Will try to make a pad as an unit,
+	group the result and copy/paste to similar pads and see how it fits.
