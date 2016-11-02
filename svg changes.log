@@ -1,6 +1,6 @@
 31 Oct 2016
 -----------
-Topapate:
+jotego:
 	Added large text for all pads
 	Identified test structures and marked as "ignore"
 	Digitised circuit at (3900, 6400)
@@ -10,3 +10,9 @@ Topapate:
 	
 	Discovered that pads alike have the same structure. Will try to make a pad as an unit,
 	group the result and copy/paste to similar pads and see how it fits.
+	
+1st Nov 2016
+------------
+jotego:
+	Identified a second bonding for VDD
+	Started to identify circuits related to data I/O
