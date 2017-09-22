@@ -26,21 +26,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25316474"
-     inkscape:cx="-306.50777"
-     inkscape:cy="10260.163"
+     inkscape:zoom="2.0253179"
+     inkscape:cx="714.36187"
+     inkscape:cy="4196.4289"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer5"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      objecttolerance="20"
-     inkscape:window-width="1920"
-     inkscape:window-height="1005"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-grids="false"
      inkscape:object-nodes="true"
@@ -73,15 +73,15 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <image
-       sodipodi:absref="D:\github\ym2151-decap\ym2151-metal.png"
+       sodipodi:absref="C:\msys64\home\William\src\ym2151-decap\ym2151-metal.png"
        xlink:href="ym2151-metal.png"
-       y="-16197.638"
-       x="-7.356377e-006"
-       id="image3402"
-       style="image-rendering:optimizeQuality"
-       preserveAspectRatio="none"
+       width="21250"
        height="17250"
-       width="21250" />
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image3402"
+       x="-7.356377e-006"
+       y="-16197.638" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2123,7 +2123,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Buried contacts"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#ff00ff;fill-opacity:0.23529412;stroke:#ff00ff;stroke-width:0.53899997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5258"
@@ -3100,7 +3101,8 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Vias"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#00ff00;fill-opacity:0.23529412;stroke:#00ff00;stroke-width:0.53899997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4274"
@@ -8282,8 +8284,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Metal"
-     style="display:inline;opacity:1"
-     sodipodi:insensitive="true">
+     style="display:inline;opacity:1">
     <path
        style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffff00;fill-opacity:0.23529412;fill-rule:nonzero;stroke:#ffff00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 367,165 0,58 -171,0 1,344 345,0 0,-170 85,0 0,-85 59,0 0,228 166,0 0,121 25,0 0,-213 53.99023,0 0,213 25,0 0,-213 56.00977,0 0,213 25,0 0,-213 54.0098,0 0,213 25,0 0,-456 -25,0 0,213 -54.0098,0 0,-213 -25,0 0,213 -56.00977,0 0,-213 -25,0 0,213 -53.99023,0 0,-213 -25,0 0,276 -130,0 0,-56 62,0 0,-36 -63,0 0,-224 -354,0 z"
@@ -10366,7 +10367,7 @@
        id="path116078"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#eae548;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="display:inline;fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 731.966,13038.848 c 0,2.762 0,28.173 0,28.173 0,0 2.76214,-0.552 2.76214,1.658 0,2.209 3.86699,2019.121 3.86699,2019.121 l -2.20971,4.419 0,25.965 23.20194,1.104 -4.50923,-2080.616 z"
        id="path116080"
        inkscape:connector-curvature="0" />
@@ -10381,7 +10382,7 @@
        id="path116100"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#eae548;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="display:inline;fill:#ffff00;fill-opacity:0.23529412;fill-rule:evenodd;stroke:#ffff00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 763.1836,14754.297 20.89843,0 -4.39453,-1812.695 -36.91406,0 0,-34.961 -50.39063,0 0,56.64 66.01563,0 z"
        id="path116109"
        inkscape:connector-curvature="0" />
@@ -10816,7 +10817,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Stitch Errors"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#00ffff;fill-opacity:0.23529412;stroke:#00ffff;stroke-width:0.53899997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -10830,7 +10831,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Text"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
@@ -13565,7 +13566,7 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="Ignore"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        id="g6151">
