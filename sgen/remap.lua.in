@@ -2,6 +2,7 @@
 
 setup("@TOP_BUILDDIR@/ym2151.map", "@TOP_BUILDDIR@/ym2151.txt", "@TOP_SRCDIR@/ym2151-pins.txt", "@TOP_SRCDIR@/ym2151-pads.txt", 2)
 text("@TOP_BUILDDIR@/ym2151-schem.txt")
+svg("@TOP_BUILDDIR@/ym2151-schem.svg")
 
 dofile("@TOP_SRCDIR@/sgen/functions.lua")
 
