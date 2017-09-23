@@ -4,6 +4,10 @@ cdata = configuration_data()
 cdata.set('TOP_SRCDIR', meson.source_root())
 cdata.set('TOP_BUILDDIR', meson.build_root())
 
+gbi = find_program('generate-bitmask-images')
+gc = find_program('generate-circuit')
+mschem = find_program('mschem')
+
 
 in = 'ym2151-layers.svg'
 
@@ -39,13 +43,13 @@ out = ['ym2151-schem.txt', 'ym2151-schem.svg']
 
 	
 bitmasks = custom_target('bitmasks',
-	command : ['generate-bitmask-images', '@INPUT0@'],
+	command : [gbi, '@INPUT0@'],
 	input : [gbi_in, in],
 	output : gbi_out,
 	build_by_default : true)
 	
 circuit = custom_target('circuit',
-	command : ['generate-circuit', '@INPUT@'],
+	command : [gc, '@INPUT@'],
 	input : gc_in,
 	output : gc_out,
 	depends : bitmasks,
@@ -53,8 +57,8 @@ circuit = custom_target('circuit',
 
 # Multiple outputs are possible from mschem. Default to run all?
 # May require multiple versions of remap.lua.
-schem = custom_target('schematic',
-	command : ['mschem', '@INPUT0@'],
+schematic = custom_target('schematic',
+	command : [mschem, '@INPUT0@'],
 	input : [remap, drm, mschem_deps],
 	output : out,
 	depends : circuit,
