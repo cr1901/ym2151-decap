@@ -1,0 +1,22 @@
+#!/usr/bin/env mschem
+
+setup("@TOP_BUILDDIR@/ym2151.map", "@TOP_BUILDDIR@/ym2151.txt", "@TOP_SRCDIR@/ym2151-pins.txt", "@TOP_SRCDIR@/ym2151-pads.txt", 2)
+text("@TOP_BUILDDIR@/ym2151-schem.txt")
+
+dofile("@TOP_SRCDIR@/sgen/functions.lua")
+
+--[=[
+n = nodes_rect()
+print(make_match(n))
+
+nl = match(n, [[
+]])
+
+move(nl, 0, 0, [[
+]])
+
+route(nl, 0, 0, [[
+]])
+
+rename(nl)
+]=]--

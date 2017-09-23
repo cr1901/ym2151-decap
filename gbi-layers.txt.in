@@ -1,4 +1,4 @@
-ym2151-layers.svg 21250 17250
+@TOP_SRCDIR@/ym2151-layers.svg 21250 17250
 l-active blue  Active
 l-poly   red   Polysilicon
 l-metal  yellow Metal

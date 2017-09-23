@@ -1,4 +1,4 @@
-ym2151.map ym2151.txt 21250 17250
+@TOP_BUILDDIR@/ym2151.map @TOP_BUILDDIR@/ym2151.txt 21250 17250
 active l-active
 poly l-poly
 metal l-metal

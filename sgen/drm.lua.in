@@ -1,0 +1,5 @@
+#!/usr/bin/env mschem
+
+tiles("@TOP_SRCDIR@/schem/tiles")
+
+dofile("remap.lua")
