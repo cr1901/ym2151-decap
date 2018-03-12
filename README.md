@@ -33,3 +33,12 @@ to run commands.
 ## Progress
 Current status is:
 * Vdd (5V) and Vss (GND) completely traced (far as I can tell)!
+
+## Colour table
+|Layer|RGB Value|Interior Alpha|Exterior Alpha|
+|-----|---------|--------------|--------------|
+|Active|0x0000FF|60|255|
+|Poly|0xFF0000|60|255|
+|Metal|0xFFFF00|60|255|
+|Via|0x00FF00|60|255|
+|Buried Contact|0xFF00FF|60|255|
