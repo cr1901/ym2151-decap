@@ -36,6 +36,9 @@ drm = configure_file(input : 'sgen/drm.lua.in',
 					   output: 'drm.lua',
 					   configuration: cdata,
 					   install: false)
+
+lua_functions = 'sgen/functions.lua'
+
 mschem_deps = ['ym2151-pads.txt',
 			   'ym2151-pins.txt']
 
@@ -59,7 +62,7 @@ circuit = custom_target('circuit',
 # May require multiple versions of remap.lua.
 schematic = custom_target('schematic',
 	command : [mschem, '@INPUT0@'],
-	input : [remap, drm, mschem_deps],
+	input : [remap, drm, mschem_deps, lua_functions],
 	output : out,
 	depends : circuit,
 	build_by_default : true)
