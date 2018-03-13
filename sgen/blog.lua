@@ -1,9 +1,24 @@
 -- This file positions the transistors in the region I analyzed in the
 -- blog post here: https://www.wdj-consulting.com/blog/nmos-sample.html
 
-n = nodes_rect(2950, 8550, 3300, 8200)
+--n = nodes_rect(2950, 8550, 3300, 8200)
+
+n = nodes_rect(2986, 8450, 3040, 8290)
+
+f = assert(io.open("blog-match.txt", "w+"))
+f:write(make_match(n))
+f:close()
+
+-- nl = match(n, make_match(n))
+-- rename(nl)
 -- print(make_match(n))
 
+-- This didn't work as expected...
+-- route(nl, 0, 0, [[
+--     n8 3000 8400 3020 8370 3050 8300 3100 8400
+-- ]])
+
+-- pr = nodes_rect()
 pullups_left = match(n, [[
     P0=d(v0, a, a)
     P1=d(v1, b, b)
@@ -27,15 +42,30 @@ pullups_left = match(n, [[
     V9=vcc(v9)
 ]])
 
-move(pullups_left, 0, 0, [[
-    P0 3000 8424 ea,
-    P1 3000 8410,
-    P8 3000 8392,
-    P9 3000 8376,
-    V0 2999 8428,
-    V1 2999 8414,
-    V8 2999 8396,
-    V9 2999 8380,
-]])
+-- Format a Pullup and corresponding voltage symbol to be moved.
+function move_p(id, x, y, o)
+    return string.format(
+    [[P%d %d %d,
+V%d %d %d,
+]], id, x, y,
+    id, x - 1, y + 4)
+end
+
+-- Format a column of pullups
+function p_col(start_id, x, y, n, o)
+    local p_str = ""
+    local i
+
+    for i = start_id,(start_id + n - 1) do
+        p_str = p_str .. move_p(i, x, y, o)
+        y = y - 15
+    end
+
+    return p_str
+end
+
+move(pullups_left, 3050, 0, move_p(2, 0, 8441, [[]]))
+move(pullups_left, 3050, 0, p_col(0, 0, 8424, 2, [[]]))
+move(pullups_left, 3050, 0, p_col(3, 0, 8392, 7, [[]]))
 
 rename(pullups_left)
