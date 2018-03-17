@@ -5,7 +5,11 @@ text("@TOP_BUILDDIR@/ym2151-schem.txt")
 svg("@TOP_BUILDDIR@/ym2151-schem.svg")
 
 dofile("@TOP_SRCDIR@/sgen/functions.lua")
-dofile("@TOP_SRCDIR@/sgen/blog.lua")
+t = dofile("@TOP_SRCDIR@/sgen/fennel/fennel.lua")
+
+t.dofile("@TOP_SRCDIR@/sgen/blog.lisp")
+
+--dofile("@TOP_SRCDIR@/sgen/blog.lua")
 
 --[=[
 n = nodes_rect()
