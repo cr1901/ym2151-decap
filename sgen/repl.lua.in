@@ -1,0 +1,8 @@
+#!/usr/bin/env mschem
+
+setup("@TOP_BUILDDIR@/ym2151.map", "@TOP_BUILDDIR@/ym2151.txt", "@TOP_SRCDIR@/ym2151-pins.txt", "@TOP_SRCDIR@/ym2151-pads.txt", 2)
+dofile("@TOP_SRCDIR@/sgen/functions.lua")
+
+t = dofile("@TOP_SRCDIR@/sgen/fennel/fennel.lua")
+
+t.repl()

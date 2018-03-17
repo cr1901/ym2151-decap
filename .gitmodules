@@ -1,0 +1,3 @@
+[submodule "sgen/fennel"]
+	path = sgen/fennel
+	url = https://github.com/bakpakin/Fennel

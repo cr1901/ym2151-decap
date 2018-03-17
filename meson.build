@@ -32,8 +32,14 @@ remap = configure_file(input : 'sgen/remap.lua.in',
 					   output: 'remap.lua',
 					   configuration: cdata,
 					   install: false)
+
 drm = configure_file(input : 'sgen/drm.lua.in',
 					   output: 'drm.lua',
+					   configuration: cdata,
+					   install: false)
+
+repl = configure_file(input : 'sgen/repl.lua.in',
+					   output: 'repl.lua',
 					   configuration: cdata,
 					   install: false)
 
@@ -64,7 +70,13 @@ circuit = custom_target('circuit',
 # May require multiple versions of remap.lua.
 schematic = custom_target('schematic',
 	command : [mschem, '@INPUT0@'],
-	input : [remap, drm, mschem_deps, lua_functions, user_lua],
+	input : [remap, mschem_deps, lua_functions, user_lua],
 	output : out,
 	depends : circuit,
 	build_by_default : true)
+
+drm = custom_target('drm',
+	command : [mschem, '@INPUT0@'],
+	input : [drm, mschem_deps, lua_functions, user_lua],
+	output : 'dummy-drm',
+	build_by_default : false)
