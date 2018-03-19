@@ -9,16 +9,33 @@
 (set mk_pullup (fn [v n]
                 (mk_mosfet v n n)))
 
-(set mk_move_pullup_str (fn [id x y o]
-                         (string.format (.. "P%d %d %d,\n"
-                                             "V%d %d %d,\n")
-                                        id x y id (- x 1) (+ y 4))))
+(set move_pullup->str (fn [id x y o]
+                        (string.format (.. "P%d %d %d,\n"
+                                           "V%d %d %d,\n")
+                                       id x y id (- x 1) (+ y 4))))
 
-(let [blog (nodes_rect 2950 8550 3300 8200)]
+
+(set p_col (fn [start_id x y n o]
+             (set iter
+               (fn [str i y]
+                 (if (>= i (+ start_id n))
+                     str
+                     :else
+                     (iter
+                       (.. str (move_pullup->str i x y o))
+                       (+ i 1)
+                       (- y 15)))))
+             (iter "" start_id y)))
+
+
+;(set roi (list 2950 8550 3300 8200))
+;(set roi (list 2986 8450 3040 8290))
+
+(let [blog (nodes_rect 2986 8450 3040 8290)]
    (let [n (make_match blog)]
        (let [f (io.open "blog-match.txt" "w+")]
          (do
-           (print n)
+           ;(print n)
            (f.write f n)
            (f.close f)))
        (let [pullups_left (.. "P0=d(v0, a, a)\n"
@@ -41,4 +58,18 @@
                            "V7=vcc(v7)\n"
                            "V8=vcc(v8)\n"
                            "V9=vcc(v9)\n")]
-            pullups_left)))
+
+            (do
+              (let [x_bias 3050
+                    y_bias 0
+                    p_match (match blog pullups_left)]
+                  (do
+                    (move p_match x_bias y_bias
+                      (move_pullup->str 2 0 8441 ""))
+                    (move p_match x_bias y_bias
+                      (p_col 0 0 8424 2 ""))
+                    (move p_match x_bias y_bias
+                      (p_col 3 0 8392 7 ""))
+                    (rename p_match)))))))
+
+;(let [blog (nodes_rect 2950 8550 3300 8200)] (let [row_]))
